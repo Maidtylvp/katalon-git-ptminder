@@ -19,5 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.click(findTestObject(null))
+WebUI.navigateToUrl('https://www.ptminder.com/')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Login as Coach/btn_Login'))
+
+WebUI.setText(findTestObject('Login as Coach/text_Email'), Email)
+
+WebUI.setText(findTestObject('Login as Coach/text_Password'), Password)
+
+WebUI.click(findTestObject('Login as Coach/btn_Sign in'))
+
+WebUI.verifyElementText(findTestObject('Login as Coach/error_message'), 'Enter your email & password')
+
+WebUI.closeBrowser()
 

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login as Coach</name>
+   <name>Login as Coach_blank email</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4f415c2b-d29b-43b9-9181-6504ebb25009</testCaseGuid>
+   <testCaseGuid>f8f1fdc2-5240-4a68-9884-4fdf77022c44</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>2164cd84-f95f-40ca-801c-d84197df23a5</id>
+      <id>f604ae76-0bf5-46f3-8c46-323f734246a4</id>
       <masked>false</masked>
       <name>Email</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>5a1c4c2d-a33d-4cd1-8b56-560d054bc9a2</id>
+      <id>df645281-249d-4b81-a46a-03969af2e804</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>
