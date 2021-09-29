@@ -19,3 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.click(findTestObject(null))
+
+WebUI.closeBrowser()
+
